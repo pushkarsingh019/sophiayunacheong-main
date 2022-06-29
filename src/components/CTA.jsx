@@ -8,7 +8,7 @@ export default function CTA({ text, ctaText, redirect }) {
       <h1>{text}</h1>
       <br />
       <br />
-      <Button redirect={redirect} text={ctaText} variant="cta-button" />
+      <Button redirect={redirect} text={ctaText} variant="cta-button cta-section-button" />
     </section>
   );
 }

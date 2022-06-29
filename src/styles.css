@@ -30,7 +30,7 @@
 }
 
 .brand-title {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .nav-list {
@@ -39,6 +39,7 @@
 }
 
 .nav-list-item {
+  font-size: 1.2rem;
   display: block;
   margin: 0 1rem;
   transform: 0.2s ease-in-out;
@@ -46,7 +47,7 @@
 
 /* for the hover effects */
 .nav-list-item :hover {
-  font-size: 1.08rem;
+  color: var(--Hero-color);
 }
 
 /* router-link : a class for all the text that needs to be a react router Link but not look that part explicityl */
@@ -207,6 +208,21 @@ h5 {
   background-color: black;
   padding: 12px 20px;
   border-radius: 12px;
+  transition: ease-in-out;
+}
+
+.cta-button:hover{
+  transform: scale(1.1);
+}
+
+/* for the CTA section */
+.cta-section-button {
+  transition: .2s ease-in-out;
+}
+
+.cta-section-button:hover{
+  background-color: var(--second-color);
+  color: var(--text-color);
 }
 
 /* styling the cta section */
@@ -239,6 +255,7 @@ h5 {
 
 .about-section p {
   font-size: 17px;
+  text-align: left;
 }
 
 .sophia-image {
@@ -270,6 +287,7 @@ p {
 
 .community-info p {
   font-size: 1.2rem;
+  text-align: left;
 }
 
 .community-youtube-embed iframe {
