@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
-import ReviewCard from "../components/ReviewCard";
 import CTA from "../components/CTA";
 import CommunityReview from "../components/CommunityReview";
 import { communityReview } from "../data/reviews";
