@@ -11,9 +11,11 @@ import Button from "../components/Button";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 
+// importing podcast logo from assets
+import podcastLogo from "../images/podcast.jpeg"
+
 export default function HomeScreen() {
-  const podcastLogoSource =
-    "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0411fb1b-6d75-44de-9abe-6f9b035df213%2Fpodcast.jpeg?table=block&id=95349334-e85f-461d-bfca-d53f118978a4&spaceId=dd7d09ab-474d-488f-a7d2-5dcf3622c32c&width=2000&userId=6d425c69-b152-4c05-a677-5704d7281975&cache=v2";
+  const podcastLogoSource = podcastLogo;
 
   function Hero() {
     return (
