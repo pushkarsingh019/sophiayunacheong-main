@@ -10,6 +10,10 @@ import { communityReview } from "../data/reviews";
 import { featuresOne, featuresTwo } from "../data/features";
 import FeatureCard from "../components/FeatureCard";
 
+// importing images
+import brandLogo from "../images/brandLogo.png";
+import callScreenshot from "../images/communityScreenshot.png";
+
 export default function CommunityScreen() {
   function HeroCommunity() {
     return (
@@ -49,8 +53,7 @@ export default function CommunityScreen() {
     return (
       <section className="section about-community-section">
         <div className="about-text">
-          <img
-            src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0ec2df97-ec75-4066-bc34-fd32d36eaa87%2FTypography.png?table=block&id=5c861aa8-6b18-4700-bf68-57e34ac2ec24&spaceId=dd7d09ab-474d-488f-a7d2-5dcf3622c32c&width=2000&userId=6d425c69-b152-4c05-a677-5704d7281975&cache=v2"
+          <img src={brandLogo}
             alt="Uncomfortably Comfortable"
           />
           <span>
@@ -61,7 +64,7 @@ export default function CommunityScreen() {
         </div>
         <div className="community-screenshot">
           <img
-            src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F30a3442a-f41c-426a-9db5-0ebf2a9c6c63%2FcreativegroupJAN2022.png?table=block&id=87efaecb-e6da-42a4-b14e-6d2b304fb551&spaceId=dd7d09ab-474d-488f-a7d2-5dcf3622c32c&width=2000&userId=6d425c69-b152-4c05-a677-5704d7281975&cache=v2"
+            src={callScreenshot}
             alt="Uncomfortably Comfortable Live Call Screenshot"
           />
         </div>
